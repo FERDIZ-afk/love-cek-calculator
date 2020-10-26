@@ -1,0 +1,231 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(240, 223, 226);
+  background-image: url("../images/fundo.png");
+}
+
+#title {
+  margin-left: 23%;
+  margin-top: 5%;
+  width: 50%;
+  font-size: 25px;
+  font-family: "Courier New", Courier, monospace;
+  position: relative;
+  color: black;
+}
+
+#title h1 {
+  text-align: center;
+  margin-bottom: 20%;
+  color: black;
+}
+
+#name1 {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 20%;
+}
+
+#nome1 {
+  -webkit-border-radius: 50px 50px 50px 50px;
+  border-radius: 50px 50px 50px 50px;
+  border: none;
+  color: rgb(247, 146, 163);
+  width: 60vw;
+  height: 5vh;
+  text-align: center;
+  outline: 0;
+  font-family: "Courier New", Courier, monospace;
+}
+
+#name2 {
+  margin-left: 20%;
+}
+
+#nome2 {
+  -webkit-border-radius: 50px 50px 50px 50px;
+  border-radius: 50px 50px 50px 50px;
+  color: rgb(247, 146, 163);
+  text-align: center;
+  border: none;
+  width: 60vw;
+  height: 5vh;
+  outline: 0;
+  font-family: "Courier New", Courier, monospace;
+}
+
+#calculador {
+  float: left;
+  border: none;
+  margin-top: 5%;
+}
+
+#calculadora {
+  width: 30vw;
+  border: none;
+  background-color: white;
+  -webkit-border-radius: 50px 50px 50px 50px;
+  border-radius: 50px 50px 50px 50px;
+  margin-left: 120%;
+  height: 6vw;
+  color: black;
+  outline: 0;
+  font-family: "Courier New", Courier, monospace;
+  bottom: 20%;
+}
+
+#porcentagem {
+  margin-top: 39%;
+  font-size: 60px;
+  position: relative;
+  font-family: "Courier New", Courier, monospace;
+  align-items: center;
+  width: 10%;
+  color: rgb(250, 134, 153);
+  margin-left: 8%;
+  float: left;
+}
+
+.subtitulo {
+  margin-top: 5%;
+  font-size: 18px;
+  position: relative;
+  margin-left: 19%;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.spinner {
+  margin-left: 33%;
+  margin-top: 30%;
+  height: 150px;
+  width: 150px;
+  border: 6px solid rgba(0, 0, 0, 0.1);
+  border-left-color: rgb(247, 146, 163);
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    background-color: rgb(240, 223, 226);
+    background-image: url("../images/fundo.png");
+  }
+
+  #title {
+    margin-left: 20%;
+    margin-top: 5%;
+    width: 50%;
+    font-size: 100px;
+    font-family: "Courier New", Courier, monospace;
+    position: relative;
+    color: black;
+  }
+
+  #title h1 {
+    text-align: center;
+    margin-bottom: 10%;
+    color: black;
+  }
+
+  .subtitulo {
+    margin-top: 0%;
+    font-size: 40px;
+    position: relative;
+    margin-left: 30%;
+    font-family: "Courier New", Courier, monospace;
+  }
+
+  #name1 {
+    margin-top: 1.5%;
+    margin-bottom: 4%;
+    margin-left: 20%;
+  }
+
+  #nome1 {
+    -webkit-border-radius: 50px 50px 50px 50px;
+    border-radius: 50px 50px 50px 50px;
+    border: none;
+    color: rgb(247, 146, 163);
+    width: 60vw;
+    height: 6vh;
+    text-align: center;
+    outline: 0;
+    font-family: "Courier New", Courier, monospace;
+  }
+
+  #name2 {
+    margin-left: 20%;
+  }
+
+  #nome2 {
+    -webkit-border-radius: 50px 50px 50px 50px;
+    border-radius: 50px 50px 50px 50px;
+    color: rgb(247, 146, 163);
+    text-align: center;
+    border: none;
+    width: 60vw;
+    height: 6vh;
+    outline: 0;
+    font-family: "Courier New", Courier, monospace;
+  }
+
+  #calculador {
+    float: left;
+    border: none;
+    margin-top: 4%;
+  }
+
+  #calculadora {
+    width: 20vw;
+    border: none;
+    background-color: white;
+    -webkit-border-radius: 50px 50px 50px 50px;
+    border-radius: 50px 50px 50px 50px;
+    margin-left: 200%;
+    height: 3.5vw;
+    color: rgb(247, 146, 163);
+    outline: 0;
+    font-family: "Courier New", Courier, monospace;
+    bottom: 20%;
+  }
+
+  #porcentagem {
+    margin-top: 14.2%;
+    font-size: 60px;
+    position: relative;
+    font-family: "Courier New", Courier, monospace;
+    align-items: center;
+    width: 10%;
+    color: rgb(250, 134, 153);
+    margin-left: 26.5%;
+    float: left;
+  }
+
+  .spinner {
+    margin-left: 45%;
+    margin-top: 12%;
+    height: 150px;
+    width: 150px;
+    border: 6px solid rgba(0, 0, 0, 0.1);
+    border-left-color: rgb(247, 146, 163);
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+  }
+
+  @keyframes spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+}
